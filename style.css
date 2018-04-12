@@ -44,6 +44,7 @@ a {
 /*---------------------*\
 	PRODUITS : YAELLE
 \*---------------------*/
+
 #produits{
     display: flex;
     flex-direction: column;
@@ -68,10 +69,139 @@ a {
 	AVIS : AGNES
 \*------------------*/
 
+.images {
+	
+	display: flex;	
+	justify-content: center;	
+}
+
+h1{
+	
+	text-align: center;
+}
+
+img {
+	max-width: 300px;
+	height: auto;
+	margin-right: 40px;	
+}
+
+.bloc{
+	display: flex;
+	justify-content: center;
+	bottom: 20px;
+	left: 10px;
+}
+
+p {
+	
+	bottom: 20px;
+	left: 10px;
+}
+
+.image1 {
+	position: relative;
+}
+
+.Mia{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 60px;
+}
+
+.bloc1{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+}
+
+
+.image2 {
+	position: relative;
+}
+
+.Sophia{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 50px;
+
+
+}
+
+.bloc2{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+
+}
+
+.image3 {
+	position: relative;
+}
+
+.Emma{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 55px;
+}
+
+.bloc3{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+
+}
+
+.comment1{
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 50px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+	white-space: nowrap;
+
+
+
+}
+
+.comment2{
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 70px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+		white-space: nowrap;
+
+
+}
+
+.comment3 {
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 70px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+
+
+}
+
 
 /*--------------------*\
 	FOOTER : MICHAEL
 \*--------------------*/
+
 .block .container {
 	display: flex;
 	text-align: center;
