@@ -1,3 +1,4 @@
+
 /*---------------*\
 	GENERAL
 \*---------------*/
@@ -43,6 +44,24 @@ a {
 /*---------------------*\
 	PRODUITS : YAELLE
 \*---------------------*/
+#produits{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.prod{
+
+    width: 250px;
+    height: 300px;
+  border: 1px solid lightgreen;
+}
 
 
 /*------------------*\
@@ -137,4 +156,4 @@ a {
 	padding: 20px 0;
 	margin: 0 20px;
 	color: #6D6D6DFF;
-}
+  }
