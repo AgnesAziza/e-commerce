@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#produits{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.prod{
+
+    width: 250px;
+    height: 300px;
+    border: 1px solid lightgreen;
+
+}
