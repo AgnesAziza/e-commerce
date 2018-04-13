@@ -54,6 +54,11 @@ header{
 	BANNIERE : ALI
 \*------------------*/
 
+.ban{
+	margin-top: 15px;
+	text-align: center;
+}
+
 
 /*---------------------*\
 	PRODUITS : YAELLE
@@ -102,7 +107,7 @@ h1{
 	text-align: center;
 }
 
-img {
+.client{
 	max-width: 300px;
 	height: auto;
 	margin-right: 40px;	
