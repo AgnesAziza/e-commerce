@@ -1,0 +1,303 @@
+/*---------------*\
+	GENERAL
+\*---------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+ font-family: "Lato-Hairline";
+ src: url("fonts/lato/Lato-Hairline.ttf"),
+}
+
+@font-face {
+ font-family: "Lato-Light";
+ src: url("fonts/lato/Lato-Light.ttf");
+}
+
+@font-face {
+ font-family: "Lato-Regular";
+ src: url("fonts/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+ font-family: "Lato-Bold";
+ src: url("fonts/lato/Lato-Bold.ttf");
+}
+
+/*------------------*\
+	HEADER : SIMON
+\*------------------*/
+header{
+    background-color: #dfe6e9;
+}
+.fisrtpartheader{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #b2bec3;
+      height: 100px;
+}
+.secondpartheader{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/*------------------*\
+	BANNIERE : ALI
+\*------------------*/
+
+
+/*---------------------*\
+	PRODUITS : YAELLE
+\*---------------------*/
+
+#produits{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.prod{
+
+    width: 250px;
+    height: 300px;
+  border: 1px solid lightgreen;
+}
+
+
+/*------------------*\
+	AVIS : AGNES
+\*------------------*/
+
+.images {
+	
+	display: flex;	
+	justify-content: center;	
+}
+
+h1{
+	
+	text-align: center;
+}
+
+img {
+	max-width: 300px;
+	height: auto;
+	margin-right: 40px;	
+}
+
+.bloc{
+	display: flex;
+	justify-content: center;
+	bottom: 20px;
+	left: 10px;
+}
+
+p {
+	
+	bottom: 20px;
+	left: 10px;
+}
+
+.image1 {
+	position: relative;
+}
+
+.Mia{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 60px;
+}
+
+.bloc1{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+}
+
+
+.image2 {
+	position: relative;
+}
+
+.Sophia{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 50px;
+
+
+}
+
+.bloc2{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+
+}
+
+.image3 {
+	position: relative;
+}
+
+.Emma{
+	position: absolute;
+	top:300px;
+	bottom: 30px;
+	margin-left: 55px;
+}
+
+.bloc3{
+	position: absolute;
+	top:340px;
+	bottom: 40px;
+	margin-left: 70px;
+
+}
+
+.comment1{
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 50px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+	white-space: nowrap;
+
+
+
+}
+
+.comment2{
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 70px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+		white-space: nowrap;
+
+
+}
+
+.comment3 {
+	border:1px solid black;
+	text-align: center;
+	border-radius: 40%;
+	margin-left: 10px;
+	margin-right: 70px;
+	box-shadow: 6px 6px 6px tomato;
+	border-radius: 20px / 10px;
+
+
+}
+
+
+/*--------------------*\
+	FOOTER : MICHAEL
+\*--------------------*/
+
+.block .container {
+	display: flex;
+	text-align: center;
+	color: #4c4c4c;
+	font-family: "Lato-Regular";
+	padding: 30px 50px;
+}
+
+.block .container1 {
+	background-color: #EAEAEAFF;
+}
+
+.block .container .miniblock {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+
+.block .container .miniblock a {
+	color: #f71073;
+}
+
+.block .container .miniblock h3 {
+	margin: 20px 0;
+}
+
+.block .container .miniblock .logo {
+	font-size: 2rem;
+	color: #f71073;
+}
+
+.block .container .parrainage .emailBox {
+	margin: auto;
+}
+
+.block .container .parrainage .emailBox #email {
+	border: 1px solid #A5A5A5FF;
+	border-right: 1px solid #f71073;
+	border-radius: 3px 0 0 3px;
+	float: left;
+	padding: 8px;
+}
+
+.block .container .parrainage .emailBox #submit {
+	border: 1px solid #f71073;
+	background-color: #f71073;
+	border-radius: 0 3px 3px 0;
+	float: left;
+	padding: 8px;
+	color: #fff;
+}
+
+.block .container .reseauSocial .logosReseau {
+	font-size: 2rem;
+	color: #f71073;
+}
+
+.block .container .reseauSocial .logosReseau .icon {
+	margin: 0 5px;
+}
+
+.block .container .miniblock .logosPaiement img {
+	width: 80px;
+	width: 60px;
+	margin: 20px 5px;
+}
+
+.block .container .miniblock .logosTransport img {
+	width: 80px;
+	width: 60px;
+	margin: 20px 5px;
+}
+
+.block .footerNav {
+	font-size: 0.7rem;
+	display: flex;
+	margin: auto;
+}
+
+.block .footerNav a {
+	padding: 20px 0;
+	margin: 0 20px;
+	color: #6D6D6DFF;
+  }
