@@ -50,14 +50,39 @@ header{
   margin-left: 15%;
 }
 
+
 /*------------------*\
 	BANNIERE : ALI
 \*------------------*/
 
-.ban{
-	margin-top: 15px;
-	text-align: center;
+
+
+#image1{
+margin-left: 180px;
 }
+
+#site {
+	
+	width: 100%;
+	height:40px;
+	background-color:non;
+	 display: flex;
+
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	  margin:auto;
+	flex-direction: row;
+
+}
+
+li a{
+	text-decoration: none;
+	padding: 0px 10px;
+	}
+
 
 
 /*---------------------*\
