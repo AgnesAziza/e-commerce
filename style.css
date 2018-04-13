@@ -58,7 +58,9 @@ header{
 
 
 #image1{
-margin-left: 180px;
+margin: 40px auto;
+display: flex;
+justify-content: center;
 }
 
 #site {
