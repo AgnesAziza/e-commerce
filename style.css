@@ -1,4 +1,3 @@
-
 /*---------------*\
 	GENERAL
 \*---------------*/
@@ -34,7 +33,22 @@ a {
 /*------------------*\
 	HEADER : SIMON
 \*------------------*/
-
+header{
+    background-color: #dfe6e9;
+}
+.fisrtpartheader{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #b2bec3;
+      height: 100px;
+}
+.secondpartheader{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15%;
+  margin-left: 15%;
+}
 
 /*------------------*\
 	BANNIERE : ALI
