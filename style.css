@@ -61,18 +61,26 @@ a {
 
     width: 250px;
     height: 300px;
-  border: 1px solid lightgreen;
+	border: 6px solid #EAEAEAFF;
+	padding: 10px;
+}
+.prod:hover{
+	border: 6px solid #f71073;
+	transition: 0.8s;
 }
 
 
 /*------------------*\
 	AVIS : AGNES
 \*------------------*/
-
+#avis{
+	margin-top: 150px;
+}
 .images {
 	
 	display: flex;	
-	justify-content: center;	
+	justify-content: center;
+		
 }
 
 h1{
@@ -167,8 +175,11 @@ p {
 	box-shadow: 6px 6px 6px tomato;
 	border-radius: 20px / 10px;
 	white-space: nowrap;
-
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	
 
 }
 
@@ -180,8 +191,11 @@ p {
 	margin-right: 70px;
 	box-shadow: 6px 6px 6px tomato;
 	border-radius: 20px / 10px;
-		white-space: nowrap;
-
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
 
 }
 
@@ -193,6 +207,10 @@ p {
 	margin-right: 70px;
 	box-shadow: 6px 6px 6px tomato;
 	border-radius: 20px / 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
 
 
 }
@@ -201,7 +219,9 @@ p {
 /*--------------------*\
 	FOOTER : MICHAEL
 \*--------------------*/
-
+.block{
+	margin-top: 100px;
+}
 .block .container {
 	display: flex;
 	text-align: center;
