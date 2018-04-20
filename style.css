@@ -49,20 +49,23 @@ header{
 	padding-top: 20px;
 }
 #spanheader1{
-	color: #9b59b6;
+	/*color: #9b59b6;*/
+	color: #f71073;
 }
 .secondpartheader{
   display: flex;
   justify-content: space-around;
   margin-right: 15%;
   margin-left: 15%;
-	padding-bottom: 15px;
-	padding-top: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 .secondpartheader p:hover{
-	color: #e84393;
+	color:#f71073;
+	/*color: #e84393;*/
 	transition: 0.2s;
-  border-bottom: 3px solid #e84393;
+  /*border-bottom: 3px solid #e84393;*/
+  	border-bottom: 3px solid#f71073;
 	padding-bottom: 3px;
 }
 .secondpartheader p{
@@ -96,8 +99,6 @@ input:valid+span:after {
 /*------------------*\
 	BANNIERE : ALI
 \*------------------*/
-
-
 
 #image1{
 margin: 40px auto;
@@ -142,20 +143,78 @@ li a{
 .row{
     display: flex;
     justify-content: space-around;
-    margin: 10px 0px;
+    margin: 30px 0px;
+}
+
+.produit{
+	width: 25%;
+	height: 350px;
 }
 
 .prod{
 
-    width: 250px;
-    height: 300px;
-	border: 6px solid #EAEAEAFF;
+    width: 100%;
+    height: 100%;
+	border: 6px solid #EAEAEA;
 	padding: 10px;
 }
-.prod:hover{
+
+/*.text{
+	position: relative;
+	bottom: 50%;
+	left: 5%;
+	width: 101%;
+	height: 0;
+	opacity: 0;
+	transition: 0.8s ease;
+	background-color: rgba(247,16,115,0.8);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+}*/
+.text{
+	position: relative;
+	bottom: 5%;
+	left: 5%;
+	width: 101%;
+	height: 0;
+	opacity: 0;
+	transition: 0.8s ease;
+	background-color: rgba(247,16,115,0.8);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/*box-sizing: content-box;*/
+	overflow: hidden;
+
+}
+
+.produit:hover .text{
+	opacity: 1;
+	height: 50%;
+	transform: translateY(-100%)
+}
+
+.para{
+	margin-top: 15%;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto'; 
+
+}
+.bouton{
+	width: 100%;
+	height: 20%;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+}
+
+/*.prod:hover{
 	border: 6px solid #f71073;
 	transition: 0.8s;
-}
+}*/
 
 
 /*------------------*\
