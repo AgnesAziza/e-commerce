@@ -38,23 +38,65 @@ a {
 	HEADER : SIMON
 \*------------------*/
 header{
-    background-color: #dfe6e9;
+  background-color: #EAEAEAFF;
+	font-family: "Lato-Regular";
+	color: #4c4c4c;
+	padding-top: 10px;
 }
 .fisrtpartheader{
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
-  background-color: #b2bec3;
-      height: 100px;
+  background-color: #EAEAEAFF;
+  height: 100px;
+}
+.fisrtpartheader h1{
+	padding-top: 20px;
+}
+#spanheader1{
+	color: #9b59b6;
 }
 .secondpartheader{
   display: flex;
   justify-content: space-around;
   margin-right: 15%;
   margin-left: 15%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.secondpartheader p:hover{
+	color: #e84393;
+	transition: 0.2s;
+  border-bottom: 3px solid #e84393;
+	padding-bottom: 3px;
+}
+.secondpartheader p{
+	color: black;
+	transition: 5s;
+	padding-bottom: 3px;
+}
+#input1{
+	width: 100px;
+	height: 20px;
+	margin-right: 10px;
+}
+.connect{
+	display: flex;
+	padding-top: 5px;
+}
+input + span {
+  padding-right: 50px;
 }
 
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+}
 
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+}
 /*------------------*\
 	BANNIERE : ALI
 \*------------------*/
@@ -150,21 +192,21 @@ header{
 	margin-top: 150px;
 }
 .images {
-	
-	display: flex;	
+
+	display: flex;
 	justify-content: center;
-		
+
 }
 
 h1{
-	
+
 	text-align: center;
 }
 
 .client{
 	max-width: 300px;
 	height: auto;
-	margin-right: 40px;	
+	margin-right: 40px;
 }
 
 .bloc{
@@ -175,7 +217,7 @@ h1{
 }
 
 p {
-	
+
 	bottom: 20px;
 	left: 10px;
 }
@@ -252,7 +294,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-	
+
 
 }
 
