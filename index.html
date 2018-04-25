@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto" rel="stylesheet"> 
 
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
@@ -20,56 +21,117 @@
     <!-- PARTIE SIMON-->
   <header>
     <div class="fisrtpartheader">
-        <h1>leYAYAsite</h1>
-        <p>ici y aura les boutons connections et parametres</p>
+        <h1>LeCommerce<span id="spanheader1">DuCoin</span></h1>
+        <div class="connect">
+          <input id="input1" type="text" placeholder="User" required>
+            <span class="validity"></span>
+          <input id="input1" type="password" placeholder="Password" required>
+            <span class="validity"></span>
+          <img id="imgheader1" src="https://icon-icons.com/icons2/868/PNG/512/basket_icon-icons.com_67985.png" alt="" width="20px" height="20px">
+        </div>
     </div>
+    <hr>
     <div class="secondpartheader">
-        <p>home</p>
-        <p>article 1</p>
-        <p>article 2</p>
-        <p>article 3</p>
-        <p>article 4</p>
-        <p>article 5</p>
-        <p>article 6</p>
-        <p>article 7</p>
-
+        <img src="https://cdn4.iconfinder.com/data/icons/devine_icons/Black/PNG/Folder%20and%20Places/Home.png" alt="home" width="20px" height="20px">
+        <p>MODE</p>
+        <p>BEAUTE</p>
+        <p>MAISON</p>
+        <p>VOYAGES</p>
+        <p>BILLETERIE</p>
+        <p>ENFANTS</p>
     </div>
 
   </header>
-    
+
     <!--PARTIE ALI-->
-   <div id="image1">
-        <img src="images/Maillot.png" alt="photo">
-    </div>
-        
+    <div class="bannerBlock">
+        <div id="image1">
+            <img id="bannerImage" src="images/Maillot.png" alt="photo">
+        </div>
 
         <div id="site">
-        <ul>
-            <li><a href="#">VENTE ACTUELLE</a></li>
-            <li><a href="#">TOP DE VENTE</a></li>
-            <li><a href="#">VENTE A VENIR</a></li>
-            
-        </ul>
-    </div>
-
-
+            <ul>
+                <li><a href="#">VENTE ACTUELLE</a></li>
+                <li><a href="#">TOP DE VENTE</a></li>
+                <li><a href="#">VENTE À VENIR</a></li>
+            </ul>
+        </div>
     
+
     <!--PARTIE YAËLLE-->
     <div id="produits">
         <div id="prod1" class="row">
-            <img src="./images/maillot.jpg" alt="" class="prod">
-            <img src="./images/ling.jpg" alt="" class="prod">
-            <img src="./images/coll.jpg" alt="" class="prod">
+            <div class="produit">
+                <img src="./images/maillot.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Soyez la plus belle sur les plages cet été.<br>Venez découvrir notre sélection de maillots de bain H&M. Profitez, en plus de -20% sur tous les maillots de bain de la marque.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+                
+            </div>
+            <div class="produit">
+                <img src="./images/ling.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Envie de céder à la tentation? <br> Succombez à notre sélection de lingerie, qui va en ravir plus d'un! </p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
+            <div class="produit">
+                <img src="./images/coll.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Collants à effet sculptant, collants amincissants, collants résistants... La collection Wolford a forcément un collant pour vous. </p>
+                    <button class="bouton">ACCÉDER À LA VENTE  </button>
+                </div>
+            </div>
         </div>
+
         <div id="prod2" class="row">
-            <img src="./images/aspir.jpg" alt="" class="prod">
-            <img src="./images/cass.jpg" alt="" class="prod">
-            <img src="./images/moul.jpg" alt="" class="prod">
+            <div class="produit">
+                <img src="./images/aspir.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Aspirateur Dyson, sans fil avec une autonomie de 1h. Chargement en 1h30. Il se transforme d’aspirateur à main en aspirateur-balais en un clin d’œil.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
+            <div class="produit">
+                <img src="./images/cass.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Casseroles anti-adhérence Téfal.<br> Venez découvrir nos sets, composés de 3 à 7 casseroles et accessoires.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
+            <div class="produit">
+                <img src="./images/moul.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Robot cuiseur Moulinex. Il fait la cuisine à votre place. Donnez lui les ingrédients, il s'occupe du reste. </p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
         </div>
+
+
         <div id="prod3" class="row">
-            <img src="./images/sony.jpg" alt="" class="prod">
-            <img src="./images/asterix.jpg" alt="" class="prod">
-            <img src="images/parfums.jpg" alt="" class="prod">
+            <div class="produit">
+                <img src="./images/s9.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">À peine arrivé, déja chez nous. Découvrez le petit dernier de la galaxy.</br>L'équilibre parfait entre design et fonctionnalités. Découvrez pourquoi les Samsung Galaxy S7 et Samsung Galaxy S7 edge sont incroyables.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
+            <div class="produit">
+                <img src="./images/vacances1.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Envie d'évasion? Offrez-vous des vacances de rèves dans une des destinations de notre partenaires LOOK Voyages.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
+            <div class="produit">
+                <img src="images/mon.jpg" alt="" class="prod">
+                <div class="text">
+                    <p class="para">Mon Guerlain Eau de Parfum Florale est le nouveau parfum de la Maison, un hommage à la féminité d'aujourd'hui: une féminité forte, libre et sensuelle, inspirée par Angelina Jolie.</p>
+                    <button class="bouton">ACCÉDER À LA VENTE </button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -79,7 +141,7 @@
         <div class="images">
             <div class="image1">
                 <img class="client" src="images/cliente1.jpg">
-                <p class="Mia">Mia (12/04/2018)</p> 
+                <p class="Mia">Mia (12/04/2018)</p>
                 <div class="comment1"><p>Trop cool! </p></div>
                 <div class="bloc1">
                     <i class="fas fa-star" style="font-size:;" color="tomato";></i>
@@ -116,11 +178,11 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 
     <!--PARTIE MICHAEL-->
     <footer>
-        
+
     <div class="block">
         <div class="container container1">
 
@@ -134,7 +196,7 @@
 
             <div class="parrainage miniblock">
                 <div class="logo">
-                    <i class="fas fa-users"></i>
+                    <i class="fas fa-user-plus"></i>
                 </div>
                 <h3>PARRAINEZ VOS AMIS</h3>
                 <div class="emailBox">
@@ -145,7 +207,7 @@
 
             <div class="reseauSocial miniblock">
                 <div class="logo">
-                    <i class="far fa-thumbs-up"></i>
+                    <i class="fas fa-users"></i>
                 </div>
                 <h3>SUIVEZ-NOUS</h3>
                 <div class="logosReseau">
@@ -173,7 +235,7 @@
                     <img src="images/chronopost.png" alt="">
                     <img src="images/mondial.png" alt="">
                     <img src="images/colissimo.png" alt="">
-                    
+
                 </div>
             </div>
         </div>
@@ -189,11 +251,11 @@
                 <a href="#">Questions Fréquentes</a>
             </div>
         </div>
-    </div>    
-    
+    </div>
+
 
     </footer>
-    
+
     <script src="site.js"></script>
 </body>
 
