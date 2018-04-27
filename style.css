@@ -38,7 +38,7 @@ a {
 	HEADER : SIMON
 \*------------------*/
 header{
-  background-color: #EAEAEAFF;
+  background-color: #f1f2f6;
 	font-family: "Lato-Regular";
 	color: #4c4c4c;
 	padding-top: 10px;
@@ -46,14 +46,13 @@ header{
 .fisrtpartheader{
   display: flex;
   justify-content: space-around;
-  background-color: #EAEAEAFF;
+  background-color: #f1f2f6;
   height: 100px;
 }
 .fisrtpartheader h1{
 	padding-top: 20px;
 }
 #spanheader1{
-	/*color: #9b59b6;*/
 	color: #f71073;
 }
 .secondpartheader{
@@ -64,23 +63,26 @@ header{
   padding-bottom: 15px;
   padding-top: 15px;
 }
-.secondpartheader p:hover{
-	color:#f71073;
-	/*color: #e84393;*/
+.secondpartheader a:hover{
+	color: #e84393;
 	transition: 0.2s;
-  /*border-bottom: 3px solid #e84393;*/
-  	border-bottom: 3px solid#f71073;
 	padding-bottom: 3px;
+	border-bottom: 3px solid #e84393;
 }
-.secondpartheader p{
+.secondpartheader a{
 	color: black;
-	transition: 5s;
+	transition: 1s;
 	padding-bottom: 3px;
+	border-bottom: 3px solid #f1f2f6;
 }
 #input1{
 	width: 100px;
 	height: 20px;
 	margin-right: 10px;
+	background-color: #dff9fb;
+	border: 2px solid #130f40;
+	border-radius: 50px;
+	text-align: center;
 }
 .connect{
 	display: flex;
@@ -91,21 +93,23 @@ input + span {
 }
 
 input:invalid+span:after {
-  position: absolute; content: '✖';
+  position: absolute; content: '';
   padding-left: 5px;
+	color: red;
 }
 
 input:valid+span:after {
   position: absolute;
   content: '✓';
   padding-left: 5px;
+	color: #2ed573;
 }
 /*------------------*\
 	BANNIERE : ALI
 \*------------------*/
 
 .bannerBlock {
-	
+
 }
 
 .bannerBlock #image1{
@@ -229,7 +233,7 @@ input:valid+span:after {
 	margin-top: 15%;
 	text-align: center;
 	color: white;
-	font-family: 'Roboto'; 
+	font-family: 'Roboto';
 
 }
 .bouton{
