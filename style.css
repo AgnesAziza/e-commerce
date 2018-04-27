@@ -38,7 +38,7 @@ a {
 	HEADER : SIMON
 \*------------------*/
 header{
-  background-color: #f1f2f6;
+  background-color: #EAEAEA;
 	font-family: "Lato-Regular";
 	color: #4c4c4c;
 	padding-top: 10px;
@@ -46,7 +46,7 @@ header{
 .fisrtpartheader{
   display: flex;
   justify-content: space-around;
-  background-color: #f1f2f6;
+  background-color: #EAEAEA;
   height: 100px;
 }
 .fisrtpartheader h1{
@@ -64,16 +64,16 @@ header{
   padding-top: 15px;
 }
 .secondpartheader a:hover{
-	color: #e84393;
+	color: #f71073;
 	transition: 0.2s;
 	padding-bottom: 3px;
-	border-bottom: 3px solid #e84393;
+	border-bottom: 3px solid #f71073;
 }
 .secondpartheader a{
 	color: black;
 	transition: 1s;
 	padding-bottom: 3px;
-	border-bottom: 3px solid #f1f2f6;
+	border-bottom: 3px solid #EAEAEA;
 }
 #input1{
 	width: 100px;
@@ -102,14 +102,14 @@ input:valid+span:after {
   position: absolute;
   content: '✓';
   padding-left: 5px;
-	color: #2ed573;
+  color: #2ed573;
 }
 /*------------------*\
 	BANNIERE : ALI
 \*------------------*/
 
 .bannerBlock {
-
+	font-family: "Lato-Regular";
 }
 
 .bannerBlock #image1{
@@ -180,7 +180,7 @@ input:valid+span:after {
 }
 
 .produit{
-	width: 25%;
+	width: 300px;
 	height: 350px;
 }
 
@@ -237,13 +237,21 @@ input:valid+span:after {
 
 }
 .bouton{
-	width: 100%;
+	width: 80%;
 	height: 20%;
 	vertical-align: bottom;
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
+	border-radius: 15px 0 15px 0;
+	box-shadow: 1px 1px 3px #999;
+	text-align: center;
+	left: 10%;
+	font-size: 15px;
+	background-color: rgba(255, 255, 255, 0.9)
 }
-
+/* .bouton:hover{
+	background-color: rgba(234, 234, 239, 0.753);
+} */
 /*.prod:hover{
 	border: 6px solid #f71073;
 	transition: 0.8s;
